@@ -1,0 +1,62 @@
+
+
+/* clear fix */
+.clear:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body
+{
+	background-color: #C0C5C4;
+	/*background-color: #2B303B;*/
+}
+
+#container 
+{
+	width:960px;
+	margin: 0 auto;
+}
+
+
+
+/*********************************/
+/* NAV */
+
+#nav_container
+{
+	background-color: #1C1F26;	
+}
+
+nav 
+{
+	width:960px;
+	margin: 0 auto;
+}
+
+nav ul li 
+{
+	float:right;
+}
+
+nav ul li a 
+{
+	display:block;
+	padding: 30px 30px 0px 30px;
+	height:50px;
+	color:#C0C5C4;
+	text-decoration:none;
+	margin: 0 0 0 0px;
+}
+
+nav ul li a:hover
+{
+	color:white;
+}
+/*********************************/
+
+
