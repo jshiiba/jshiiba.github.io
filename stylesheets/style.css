@@ -58,7 +58,7 @@ h3
 
 h4
 {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .left
@@ -215,22 +215,30 @@ h2.h2_resume
 
 .resume_sect
 {
-	padding:50px;
+	margin: 20px 0 20px 0;
+}
+
+#education_sec
+{
+	height: 275px;
+	margin-top: 50px;
 }
 
 #education
 {
-
+	width:480px;
 }
 
 #coursework
 {
-
+	width:480px;
 }
 
 ul.course_list li
 {
 	padding: 5px 0 5px 0;
+	list-style-type: circle;
+	margin-left: 20px;
 }
 
 #experience
@@ -238,9 +246,55 @@ ul.course_list li
 
 }
 
+.exp
+{
+	padding:10px 0 5px 0;
+}
+
+.exp_company
+{
+	/*color:#BF6167;*/
+}
+
+span.company_name
+{
+	font-style: italic;
+}
+
+ul.exp_descrip
+{
+	margin-left: 50px;
+}
+ ul.exp_descrip li 
+ {
+ 	padding: 5px 0 5px 0;
+ 	list-style-type: circle;
+ }
+
+h3.h3_resume
+{
+	color:#9DBE8C;
+}
+
 #skills
 {
 
+}
+
+div.skill_div
+{
+	width: 460px;
+}
+
+ul.skill_list
+{
+	margin-left: 50px;
+}
+
+ul.skill_list li
+{
+ 	padding: 5px 0 5px 0;
+ 	list-style-type: circle;
 }
 
 #activities
@@ -248,11 +302,22 @@ ul.course_list li
 
 }
 
+ul.act_list
+{
+	margin-left: 50px;
+}
+
+ul.act_list li
+{
+ 	padding: 5px 0 5px 0;
+ 	list-style-type: circle;
+}
+/*********************************/
 
 
 
-
-
+/****************************************************************************/
+/* ABOUT PAGE */
 
 
 
