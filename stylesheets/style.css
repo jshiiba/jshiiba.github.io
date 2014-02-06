@@ -4,8 +4,14 @@
 	src:url("../fonts/BebasNeue.otf");
 }
 
+@font-face {
+	font-family: UbuntuMono;
+	src:url("../fonts/UbuntuMono-R.ttf");
+}
+
 /* clear fix */
-.clear:after {
+.clear:after 
+{
      content: ".";
      display: block;
      clear: both;
@@ -109,13 +115,67 @@ img#main_img
 	border: 1px solid black;
 }
 
-h1#main_h1
+p#main_h1
 {
 	color: #D08360;
 	font-family: BebasNeue;
-	font-size: 50px;
-	margin: 120px 0 0 100px;
+	font-size: 60px;
+	margin: -56px 0 0 110px;
 }
+
+p#main_def 
+{
+	font-family: UbuntuMono;
+	color: #BF6167;
+	font-size: 60px;
+	margin: 100px 0 0 0px;
+}
+
+p#main_paren
+{
+	font-family: UbuntuMono;
+	color: #BF6167;
+	font-size: 60px;
+	margin: -72px 0 0 400px;
+}
+
+div#main_list_box 
+{
+	margin: 30px 0px 0px 95px;
+}
+
+ul#main_list li
+{
+	color: #9DBE8C;
+	font-family: BebasNeue;
+	font-size: 45px;
+	padding:10px;
+}
+
+p#main_end
+{
+	font-family: UbuntuMono;
+	color: #BF6167;
+	font-size: 60px;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
