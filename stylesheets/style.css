@@ -26,6 +26,7 @@ body
 	background-color: #2B303B;
 	font-size: 18px;
 	color:#C0C5C4;
+	font-family: Helvetica;
 }
 
 #container 
@@ -43,17 +44,17 @@ h1, h2, h3, h4
 
 h1
 {
-	font-size: 42px;
+	font-size: 60px;
 }
 
 h2
 {
-	font-size: 32px;
+	font-size: 42px;
 }
 
 h3
 {
-	font-size: 26px;
+	font-size: 24px;
 }
 
 h4
@@ -207,10 +208,20 @@ p#main_end
 /****************************************************************************/
 /* RESUME PAGE */
 
+#h1_resume
+{
+	color: #D08360;
+	font-family: BebasNeue;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
 h2.h2_resume
 {
 	font-size: 32px;
 	color:#D08360;
+	font-family: BebasNeue;
 }
 
 .resume_sect
@@ -221,7 +232,7 @@ h2.h2_resume
 #education_sec
 {
 	height: 275px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 #education
