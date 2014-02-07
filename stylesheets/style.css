@@ -155,7 +155,7 @@ img#main_img
 {
 	margin-top: 50px;
 	margin-left: 80px;
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
 p#main_h1
@@ -212,7 +212,6 @@ p#main_end
 {
 	color: #D08360;
 	font-family: BebasNeue;
-	text-align: center;
 	margin-top: 30px;
 	font-weight: bold;
 }
@@ -329,11 +328,25 @@ ul.act_list li
 
 /****************************************************************************/
 /* ABOUT PAGE */
+#h1_about
+{
+	color: #D08360;
+	font-family: BebasNeue;
+	margin-top: 30px;
+	font-weight: bold;
+}
 
+#about_sec
+{
+	width: 480px;
+}
 
-
-
-
+p.about_p
+{
+	padding:10px 0 10px 0;
+	line-height:24px; 
+	margin: 10px 0 10px 0;
+}
 
 
 
