@@ -72,6 +72,10 @@ h4
 	float:right;
 }
 
+section 
+{
+	padding: 20px 0 20px 0;
+}
 
 /*********************************/
 /* NAV */
@@ -80,7 +84,7 @@ h4
 {
 	background-color: #1C1F26;
 	position: fixed;
-	margin-top: -20px;
+	top: 0px;
 	width: 100%;	
 }
 
@@ -137,31 +141,27 @@ footer
 
 
 /*********************************/
-/* MAIN SECTION */
-.main_sec
+/* intro SECTION */
+section#intro
 {
-	width: 480px;	
-	/*height: 600px;*/
-	margin-bottom: 50px;
+	height: 700px;
 }
 
-#main_left
+#intro_box
 {
-
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
 }
 
-#main_right 
-{
-}
-
-img#main_img 
+img#intro_img 
 {
 	margin-top: 50px;
 	margin-left: 80px;
 	border: 2px solid black;
 }
 
-p#main_h1
+p#intro_h1
 {
 	color: #D08360;
 	font-family: BebasNeue;
@@ -169,7 +169,7 @@ p#main_h1
 	margin: -56px 0 0 110px;
 }
 
-p#main_def 
+p#intro_def 
 {
 	font-family: UbuntuMono;
 	color: #BF6167;
@@ -177,7 +177,7 @@ p#main_def
 	margin: 100px 0 0 0px;
 }
 
-p#main_paren
+p#intro_paren
 {
 	font-family: UbuntuMono;
 	color: #BF6167;
@@ -185,12 +185,12 @@ p#main_paren
 	margin: -72px 0 0 400px;
 }
 
-div#main_list_box 
+div#intro_list_box 
 {
 	margin: 30px 0px 0px 95px;
 }
 
-ul#main_list li
+ul#intro_list li
 {
 	color: #9DBE8C;
 	font-family: BebasNeue;
@@ -198,7 +198,7 @@ ul#main_list li
 	padding:10px;
 }
 
-p#main_end
+p#intro_end
 {
 	font-family: UbuntuMono;
 	color: #BF6167;
@@ -210,11 +210,6 @@ p#main_end
 
 /****************************************************************************/
 /* RESUME PAGE */
-
-section#main
-{
-	height: 580px;
-}
 
 #h1_resume
 {
