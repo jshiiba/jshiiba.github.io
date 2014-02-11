@@ -45,6 +45,7 @@ h1, h2, h3, h4
 h1
 {
 	font-size: 60px;
+	text-align: center;
 }
 
 h2
@@ -74,7 +75,7 @@ h4
 
 section 
 {
-	padding: 20px 0 20px 0;
+	padding: 50px 0 50px 0px;
 }
 
 /*********************************/
@@ -165,7 +166,7 @@ p#intro_h1
 {
 	color: #D08360;
 	font-family: BebasNeue;
-	font-size: 60px;
+	font-size: 70px;
 	margin: -56px 0 0 110px;
 }
 
@@ -173,7 +174,7 @@ p#intro_def
 {
 	font-family: UbuntuMono;
 	color: #BF6167;
-	font-size: 60px;
+	font-size: 70px;
 	margin: 100px 0 0 0px;
 }
 
@@ -181,7 +182,7 @@ p#intro_paren
 {
 	font-family: UbuntuMono;
 	color: #BF6167;
-	font-size: 60px;
+	font-size: 70px;
 	margin: -72px 0 0 400px;
 }
 
@@ -337,12 +338,13 @@ ul.act_list li
 	font-family: BebasNeue;
 	margin-top: 30px;
 	font-weight: bold;
+	margin-bottom: 50px;
 }
 
 #about_sec
 {
 	width: 480px;
-	height: 500px;
+	/*height: 500px;*/
 }
 
 p.about_p
@@ -350,6 +352,7 @@ p.about_p
 	padding:10px 0 10px 0;
 	line-height:24px; 
 	margin: 10px 0 10px 0;
+	font-size: 20px;
 }
 
 
