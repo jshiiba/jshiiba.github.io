@@ -1,0 +1,135 @@
+
+@font-face {
+	font-family: BebasNeue;
+	src:url("../fonts/BebasNeue.otf");
+}
+
+@font-face {
+	font-family: UbuntuMono;
+	src:url("../fonts/UbuntuMono-R.ttf");
+}
+
+/* clear fix */
+.clear:after 
+{
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body
+{
+	/*background-color: #C0C5C4;*/
+	background-color: #2B303B;
+	font-size: 18px;
+	color:#C0C5C4;
+	font-family: Helvetica;
+}
+
+#container 
+{
+	width:960px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 
+{
+	padding: 10px 0 10px 0;
+}
+
+h1
+{
+	font-size: 60px;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 42px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+h4
+{
+	font-size: 20px;
+}
+
+.left
+{
+	float:left;
+}
+
+.right 
+{
+	float:right;
+}
+
+section 
+{
+	padding: 50px 0 50px 0px;
+}
+
+/*********************************/
+/* NAV */
+
+#nav_container
+{
+	background-color: #1C1F26;
+	position: fixed;
+	top: 0px;
+	width: 100%;	
+}
+
+nav 
+{
+	width:960px;
+	margin: 0 auto;
+}
+
+nav ul li 
+{
+	float:right;
+}
+
+nav ul li a 
+{
+	display:block;
+	padding: 30px 50px 0px 50px;
+	height:50px;
+	color:#C0C5C4;
+	text-decoration:none;
+	margin: 0 0 0 0px;
+	font-family: Helvetica;
+}
+
+a.current
+{
+	background-color: #2B303B;
+}
+
+nav ul li a:hover
+{
+	color:white;
+}
+/*********************************/
+
+
+
+/*********************************/
+/* FOOTER */
+footer
+{
+/*	height: 50px;
+	background-color: #1C1F26;	*/
+}
+
+/*********************************/
