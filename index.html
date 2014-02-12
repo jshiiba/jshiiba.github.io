@@ -5,20 +5,47 @@
 
 	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+	<script src="js/jQuery-One-Page-Nav/jquery.js"></script>
+<script src="js/jQuery-One-Page-Nav/jquery.scrollTo.js"></script>
+<script src="js/jQuery-One-Page-Nav/jquery.nav.js"></script>
+<script>
+$(document).ready(function() {
+	$('#sec-1').click(function(e) {
+        e.preventDefault();
+        $.scrollTo(0,0, {duration: 500});
+    });
+
+	$('#sec-2').click(function(e) {
+        e.preventDefault();
+        $.scrollTo('#about', {duration: 500});
+    });
+	$('#sec-3').click(function(e) {
+        e.preventDefault();
+        $.scrollTo('#portfolio', {duration: 500});
+    });
+	$('#sec-4').click(function(e) {
+        e.preventDefault();
+        $.scrollTo('#resume', {duration: 500});
+    });
+	$('#sec-5').click(function(e) {
+        e.preventDefault();
+        $.scrollTo('#Contact', {duration: 500});
+    });
+});
+</script>
 </head>
 <body>
 
 
-<nav class="clear">
+<nav id="navigation" class="">
 	<ul>
-		<li><a href="#">Contact</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Resume</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Home</a></li>
+		<li><a href="#Contact" id="sec-5">Contact</a></li>
+		<li><a href="#resume" id="sec-4">Resume</a></li>
+		<li><a href="#portfolio" id="sec-3">Portfolio</a></li>
+		<li><a href="#about" id="sec-2">About</a></li>
+		<li><a href="#intro" id="sec-1">Home</a></li>
 	</ul>
 </nav>
-
 
 <section id="intro">
 	<div class="vertical-text">
