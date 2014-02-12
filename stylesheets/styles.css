@@ -38,8 +38,8 @@ html, body
 
 body
 {
-	font-size: 18px;
-	color:#C0C5C4;
+	font-size: 16px;
+	color:black;
 	font-family: Helvetica;
 }
 
@@ -58,17 +58,17 @@ h1, h2, h3, h4
 
 h1
 {
-	font-size: 80px;
+	font-size: 100px;
 }
 
 h2
 {
-	font-size: 42px;
+	font-size: 80px;
 }
 
 h3
 {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 h4
@@ -116,6 +116,20 @@ section
 .highlight
 {
 	color: #9DBE8C;
+}
+
+.container
+{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.container h2
+{
+	text-align: center;
+	margin-top: 50px;
+	color: #D08360;
+	font-family: BebasNeue;
 }
 
 /*********************************/
@@ -168,17 +182,35 @@ nav ul li a:hover
 
 
 
-
-
-
-
 /*********************************/
 /* PORTFOLIO SECTION */
 #portfolio
 {
 	background-color: white;
+	height:auto;
 }
 
+.projects
+{
+	margin: 40px 0 40px 0;
+}
+
+.project_img
+{
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+
+.project_description
+{
+	width: 750px;
+}
+
+.project_description h3
+{
+	color: ;
+}
 
 
 /*********************************/
