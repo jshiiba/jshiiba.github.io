@@ -58,12 +58,12 @@ h1, h2, h3, h4
 
 h1
 {
-	font-size: 100px;
+	font-size: 90px;
 }
 
 h2
 {
-	font-size: 80px;
+	font-size: 70px;
 }
 
 h3
@@ -218,6 +218,7 @@ nav ul li a:hover
 #resume
 {
 	background-color: #2B303B;
+	display: table;
 }
 
 /*********************************/
@@ -227,15 +228,23 @@ nav ul li a:hover
 	background-color: white;
 }
 
+#resume a
+{
+	color: #BF6167;
+}
 
+#resume a:hover
+{
+	font-weight: bold;
+}
 
 
 
 /*********************************/
 /* CONTACT */
-footer
+#Contact
 {
-
+	background-color: #2B303B;
 }
 
 /*********************************/
