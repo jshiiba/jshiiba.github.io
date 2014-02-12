@@ -118,6 +118,11 @@ section
 	color: #9DBE8C;
 }
 
+.red_highlight
+{
+	color: #BF6167;
+}
+
 .container
 {
 	width: 1180px;
@@ -130,6 +135,11 @@ section
 	margin-top: 50px;
 	color: #D08360;
 	font-family: BebasNeue;
+}
+
+p
+{
+	font-size: 22px;
 }
 
 /*********************************/
@@ -180,7 +190,43 @@ nav ul li a:hover
 }
 
 
+/*********************************/
+/* ABOUT SECTION */
+#about
+{
+	background-color: #9DBE8C;
+	display: table;
+}
 
+#about .right 
+{
+	width: 300px;
+}
+
+#about .left 
+{
+	width: 750px;
+}
+
+#about h2
+{
+	color: white;
+	/*margin-top: 150px;*/
+}
+
+#about img
+{
+	/*margin-top: 150px;*/
+	width:300px;
+	border: 2px solid white;
+}
+
+#about p 
+{
+	font-size: 22px;
+	line-height: 30px;
+	color: white;
+}
 
 /*********************************/
 /* PORTFOLIO SECTION */
@@ -209,7 +255,7 @@ nav ul li a:hover
 
 .project_description h3
 {
-	color: ;
+	color: #BF6167;
 }
 
 
@@ -219,13 +265,6 @@ nav ul li a:hover
 {
 	background-color: #2B303B;
 	display: table;
-}
-
-/*********************************/
-/* ABOUT SECTION */
-#about
-{
-	background-color: white;
 }
 
 #resume a
@@ -239,12 +278,11 @@ nav ul li a:hover
 }
 
 
-
 /*********************************/
 /* CONTACT */
 #Contact
 {
-	background-color: #2B303B;
+	background-color: white;
 }
 
 /*********************************/
