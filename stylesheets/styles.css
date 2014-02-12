@@ -40,7 +40,7 @@ body
 {
 	font-size: 16px;
 	color:black;
-	font-family: Helvetica;
+	font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 #container 
@@ -211,12 +211,10 @@ nav ul li a:hover
 #about h2
 {
 	color: white;
-	/*margin-top: 150px;*/
 }
 
 #about img
 {
-	/*margin-top: 150px;*/
 	width:300px;
 	border: 2px solid white;
 }
@@ -255,9 +253,42 @@ nav ul li a:hover
 
 .project_description h3
 {
-	color: #BF6167;
+	color: black;
 }
 
+#portfolio p 
+{
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.flat-button{
+text-align:center;
+text-decoration: none;
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 150%;
+color: #FFF;
+background: #BF6167;
+padding: 20px 60px;
+display: inline-block;
+white-space: nowrap;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin: 10px 0;
+-webkit-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+margin-top: 40px;
+}
+
+.flat-button:hover
+{
+
+}
 
 /*********************************/
 /* RESUME SECTION */
